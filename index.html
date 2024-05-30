@@ -1,213 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>โปรPUBG Steam</title>
-    <meta name="description" content="เช่าโปร PUBG Steam พร้อมความสามารถ มองทะลุ ล็อคเป้า และกันโปร BattlEye">
-    <meta name="keywords" content="โปรPUBG, PUBG Steam, โปรเกมส์, เช่าโปร PUBG, มองทะลุ, ล็อคเป้า, กันโปร BattlEye">
-    <meta name="author" content="Your Name">
-    <style>
-        body {
-            background-color: #000;
-            color: #fff;
-            font-family: Arial, sans-serif;
-        }
-        .container {
-            text-align: center;
-            padding: 20px;
-        }
-        .header {
-            background-color: #282c34;
-            padding: 20px;
-            border-radius: 10px;
-        }
-        .header h1 {
-            color: #00ff00;
-        }
-        .content {
-            background-color: #1e1e1e;
-            padding: 20px;
-            margin: 20px auto;
-            border-radius: 10px;
-            max-width: 800px;
-        }
-        .content h2 {
-            color: #ff00ff;
-        }
-        .content ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .content li {
-            padding: 10px 0;
-        }
-        .content a {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            color: #fff;
-            background-color: #ff00ff;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .content img {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-            margin-top: 20px;
-        }
-        .reviews {
-            background-color: #282c34;
-            padding: 20px;
-            margin: 20px auto;
-            border-radius: 10px;
-            max-width: 800px;
-        }
-        .review {
-            text-align: left;
-            margin: 10px 0;
-            padding: 10px;
-            background-color: #333;
-            border-radius: 10px;
-        }
-        .review h4 {
-            margin: 0;
-            color: #ff00ff;
-        }
-        .review p {
-            margin: 5px 0;
-        }
-        .stars {
-            color: #ffdd00;
-        }
-        .review-form {
-            background-color: #1e1e1e;
-            padding: 20px;
-            margin: 20px auto;
-            border-radius: 10px;
-            max-width: 800px;
-            text-align: left;
-        }
-        .review-form label {
-            display: block;
-            margin: 10px 0 5px;
-        }
-        .review-form input, .review-form textarea, .review-form select {
-            width: calc(100% - 20px);
-            padding: 10px;
-            margin-bottom: 10px;
-            border-radius: 5px;
-            border: none;
-        }
-        .review-form button {
-            display: inline-block;
-            padding: 10px 20px;
-            color: #fff;
-            background-color: #ff00ff;
-            text-decoration: none;
-            border-radius: 5px;
-            border: none;
-            cursor: pointer;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>โปรPUBG Steam</title>
+  <meta name="description" content="เช่าโปร PUBG Steam พร้อมความสามารถ มองทะลุ ล็อคเป้า และกันโปร BattlEye">
+  <meta name="keywords" content="โปรPUBG, PUBG Steam, โปรเกมส์, เช่าโปร PUBG, มองทะลุ, ล็อคเป้า, กันโปร BattlEye">
+  <meta name="author" content="Your Name">
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .header {
+      background-color: #282c34;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .header h1 {
+      color: #00ff00;
+    }
+
+    .content {
+      background-color: #1e1e1e;
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 10px;
+      max-width: 800px;
+    }
+
+    .content h2 {
+      color: #ff00ff;
+    }
+
+    .content ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .content li {
+      padding: 10px 0;
+    }
+
+    .content a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      color: #fff;
+      background-color: #ff00ff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .content img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    .reviews {
+      background-color: #282c34;
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 10px;
+      max-width: 800px;
+    }
+
+    .review {
+      text-align: left;
+      margin: 10px 0;
+      padding: 10px;
+      background-color: #333;
+      border-radius: 10px;
+    }
+
+    .review h4 {
+      margin: 0;
+      color: #ff00ff;
+    }
+
+    .review p {
+      margin: 5px 0;
+    }
+
+    .stars {
+      color: #ffdd00;
+    }
+  </style>
 </head>
+
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>โปรPUBG Steam</h1>
-        </div>
-        <div class="content">
-            <h2>เกมส์ PLAYERUNKNOWN'S BATTLEGROUNDS</h2>
-            <p>กันโปร BattlEye</p>
-            <a href="https://www.facebook.com/marketplace/item/1568815713676322/?ref=marketplace_profile&referral_code=undefined" target="_blank">เช่าโปรคลิกเลย</a>
-            <h3>ความสามารถ</h3>
-            <ul>
-                <li>+ มองทะลุ ล็อคเป้า เช็คคนส่อง</li>
-                <li>+ มองทะลุ แยกสีมองหน้าหลังกำแพง และแยกสีบอท บอทสีขาว</li>
-                <li>+ กันถ่ายแคปหน้าจอ ทุกรูปแบบ [ ไลฟ์ หรือแคปรูปทั้งหน้าจอ ก็ไม่ติดโปร 100% ]</li>
-            </ul>
-            <img src="https://guproth.net/public/img/pu14.4.png" alt="โปร PUBG Steam มองทะลุ ล็อคเป้า">
-        </div>
-        <div class="reviews">
-            <h2>รีวิวจากผู้ใช้งาน</h2>
-            <div class="review">
-                <h4>ผู้ใช้งาน: สมชาย</h4>
-                <p>โปรดีมาก ใช้งานง่าย มองทะลุได้จริง ๆ</p>
-                <div class="stars">⭐⭐⭐⭐⭐⭐⭐⭐⭐☆☆</div>
-            </div>
-            <div class="review">
-                <h4>ผู้ใช้งาน: อรทัย</h4>
-                <p>ช่วยให้เล่นเก่งขึ้นเยอะเลยค่ะ</p>
-                <div class="stars">⭐⭐⭐⭐⭐⭐⭐⭐☆☆☆</div>
-            </div>
-            <div class="review">
-                <h4>ผู้ใช้งาน: ก้อง</h4>
-                <p>แยกสีบอทได้ชัดเจนมาก แต่บางครั้งล็อคเป้ายังไม่แม่น</p>
-                <div class="stars">⭐⭐⭐⭐⭐⭐⭐☆☆☆☆</div>
-            </div>
-            <div class="review">
-                <h4>ผู้ใช้งาน: นัท</h4>
-                <p>คุ้มค่ามาก กันถ่ายแคปหน้าจอได้จริง</p>
-                <div class="stars">⭐⭐⭐⭐⭐⭐⭐⭐⭐☆☆</div>
-            </div>
-            <div class="review">
-                <h4>ผู้ใช้งาน: มาย</h4>
-                <p>ช่วยให้เล่นสนุกขึ้นเยอะ แต่ยังมีบางจุดที่ต้องปรับปรุง</p>
-                <div class="stars">⭐⭐⭐⭐⭐⭐⭐☆☆☆☆</div>
-            </div>
-            <div class="review">
-                <h4>ผู้ใช้งาน: ดิน</h4>
-                <p>โปรใช้งานได้ดี แต่ราคาสูงไปนิด</p>
-                <div class="stars">⭐⭐⭐⭐⭐⭐⭐⭐☆☆☆</div>
-            </div>
-            <div class="review">
-                <h4>ผู้ใช้งาน: ฟ้า</h4>
-                <p>ชอบมากค่ะ ใช้แล้วไม่มีปัญหาเลย</p>
-                <div class="stars">⭐⭐⭐⭐⭐⭐⭐⭐⭐☆☆</div>
-            </div>
-            <div class="review">
-                <h4>ผู้ใช้งาน: ป้อม</h4>
-                <p>ใช้แล้วรู้สึกมั่นใจขึ้น แต่บางครั้งล็อคเป้ายังไม่ดีเท่าที่ควร</p>
-                <div class="stars">⭐⭐⭐⭐⭐⭐⭐☆☆☆☆</div>
-            </div>
-            <div class="review">
-                <h4>ผู้ใช้งาน: โบ๊ท</h4>
-                <p>ใช้งานได้ตามที่โฆษณาไว้ ดีมาก</p>
-                <div class="stars">⭐⭐⭐⭐⭐⭐⭐⭐⭐☆☆</div>
-            </div>
-            <div class="review">
-                <h4>ผู้ใช้งาน: นก</h4>
-                <p>แยกสีบอทได้ดี แต่มีบางครั้งที่มองทะลุไม่ชัดเจน</p>
-                <div class="stars">⭐⭐⭐⭐⭐⭐⭐☆☆☆☆</div>
-            </div>
-        </div>
-        <div class="review-form">
-            <h2>เขียนรีวิว</h2>
-            <form>
-                <label for="username">ชื่อผู้ใช้งาน:</label>
-                <input type="text" id="username" name="username" required>
-
-                <label for="comment">คอมเมนต์:</label>
-                <textarea id="comment" name="comment" rows="4" required></textarea>
-
-                <label for="rating">คะแนน:</label>
-                <select id="rating" name="rating" required>
-                    <option value="1">1 ดาว</option>
-                    <option value="2">2 ดาว</option>
-                    <option value="3">3 ดาว</option>
-                    <option value="4">4 ดาว</option>
-                    <option value="5">5 ดาว</option>
-                    <option value="6">6 ดาว</option>
-                    <option value="7">7 ดาว</option>
-                    <option value="8">8 ดาว</option>
-                    <option value="9">9 ดาว</option>
-                    <option value="10">10 ดาว</option>
-                </select>
-
-                <button type="submit">ส่งรีวิว</button>
-            </form>
-        </div>
+  <div class="container">
+    <div class="header">
+      <h1>โปรPUBG Steam</h1>
     </div>
+    <div class="content">
+      <h2>เกมส์ PLAYERUNKNOWN'S BATTLEGROUNDS</h2>
+      <p>กันโปร BattlEye</p>
+      <a href="https://www.facebook.com/marketplace/item/1568815713676322/?ref=marketplace_profile&referral_code=undefined"
+        target="_blank">เช่าโปรคลิกเลย</a>
+      <h3>ความสามารถ</h3>
+      <ul>
+        <li>+ มองทะลุ ล็อคเป้า เช็คคนส่อง</li>
+        <li>+ มองทะลุ แยกสีมองหน้าหลังกำแพง และแยกสีบอท บอทสีขาว</li>
+        <li>+ กันถ่ายแคปหน้าจอ ทุกรูปแบบ [ ไลฟ์ หรือแคปรูปทั้งหน้าจอ ก็ไม่ติดโปร 100% ]</li>
+      </ul>
+      <img src="https://guproth.net/public/img/pu14.4.png" alt="โปร PUBG Steam มองทะลุ ล็อคเป้า">
+    </div>
+    <div class="reviews">
+      <h2>รีวิวจากผู้ใช้งาน</h2>
+      <div class="review">
+        <h4>ผู้ใช้งาน: สมชาย</h4>
+        <p>โปรดีมาก ใช้งานง่าย มองทะลุได้จริง ๆ</p>
+        <div class="stars">⭐⭐⭐⭐⭐⭐⭐⭐⭐☆☆</div>
+      </div>
+      <div class="review">
+        <h4>ผู้ใช้งาน: อรทัย</h4>
+        <p>ช่วยให้เล่นเก่งขึ้นเยอะเลยค่ะ</p>
+        <div class="stars">⭐⭐⭐⭐⭐⭐⭐⭐☆☆☆</div>
+      </div>
+      <div class="review">
+        <h4>ผู้ใช้งาน: ก้อง</h4>
+        <p>แยกสีบอทได้ชัดเจนมาก แต่บางครั้งล็อคเป้ายังไม่แม่น</p>
+        <div class="stars">⭐⭐⭐⭐⭐⭐⭐☆☆☆☆</div>
+      </div>
+      <div class="review">
+        <h4>ผู้ใช้งาน: นัท</h4>
+        <p>คุ้มค่ามาก กันถ่ายแคปหน้าจอได้จริง</p>
+        <div class="stars">⭐⭐⭐⭐⭐⭐⭐⭐⭐☆☆</div>
+      </div>
+      <div class="review">
+        <h4>ผู้ใช้งาน: มาย</h4>
+        <p>ช่วยให้เล่นสนุกขึ้นเยอะ แต่ยังมีบางจุดที่ต้องปรับปรุง</p>
+        <div class="stars">⭐⭐⭐⭐⭐⭐⭐☆☆☆☆</div>
+      </div>
+      <div class="review">
+        <h4>ผู้ใช้งาน: ดิน</h4>
+        <p>โปรใช้งานได้ดี แต่ราคาสูงไปนิด</p>
+        <div class="stars">⭐⭐⭐⭐⭐⭐⭐⭐☆☆☆</div>
+      </div>
+      <div class="review">
+        <h4>ผู้ใช้งาน: ฟ้า</h4>
+        <p>ชอบมากค่ะ ใช้แล้วไม่มีปัญหาเลย</p>
+        <div class="stars">⭐⭐⭐⭐⭐⭐⭐⭐⭐☆☆</div>
+      </div>
+      <div class="review">
+        <h4>ผู้ใช้งาน: ป้อม</h4>
+        <p>ใช้แล้วรู้สึกมั่นใจขึ้น แต่บางครั้งล็อคเป้ายังไม่ดีเท่าที่ควร</p>
+        <div class="stars">⭐⭐⭐⭐⭐⭐⭐☆☆☆☆</div>
+      </div>
+      <div class="review">
+        <h4>ผู้ใช้งาน: โบ๊ท</h4>
+        <p>ใช้งานได้ตามที่โฆษณาไว้ ดีมาก</p>
+        <div class="stars">⭐⭐⭐⭐⭐⭐⭐⭐⭐☆☆</div>
+      </div>
+      <div class="review">
+        <h4>ผู้ใช้งาน: นก</h4>
+        <p>แยกสีบอทได้ดี แต่มีบางครั้งที่มองทะลุไม่ชัดเจน</p>
+        <div class="stars">⭐⭐⭐⭐⭐⭐⭐☆☆☆☆</div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
