@@ -103,6 +103,7 @@
   <div class="container">
     <div class="header">
       <h1>โปรPUBG Steam</h1>
+      <h3>จำนวนคนออนไลน์: <span id="online-users"></span></h3>
     </div>
     <div class="content">
       <h2>เกมส์ PLAYERUNKNOWN'S BATTLEGROUNDS</h2>
@@ -116,6 +117,7 @@
         <li>+ กันถ่ายแคปหน้าจอ ทุกรูปแบบ [ ไลฟ์ หรือแคปรูปทั้งหน้าจอ ก็ไม่ติดโปร 100% ]</li>
       </ul>
       <img src="https://guproth.net/public/img/pu14.4.png" alt="โปร PUBG Steam มองทะลุ ล็อคเป้า">
+      <a href="https://www.facebook.com/messages/t/61554541332353/" target="_blank">แชทกับเราบน Facebook</a>
     </div>
     <div class="reviews">
       <h2>รีวิวจากผู้ใช้งาน</h2>
@@ -171,6 +173,11 @@
       </div>
     </div>
   </div>
+ <script>
+    // สุ่มจำนวนคนออนไลน์
+    var onlineUsers = Math.floor(Math.random() * (500 - 100 + 1) + 100);
+    document.getElementById('online-users').textContent = onlineUsers;
+  </script>
 </body>
 
 </html>
